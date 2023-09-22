@@ -11,7 +11,7 @@ limit_number = [
 
 def Level():
     random_number = random.choice(limit_number)
-    random_target = random.randint(random_number[0], random_number[4])
+    random_target = random.randint(random_number[0], random_number[1])
     
     while True:
         answer = int(input("What is The Number: "))
